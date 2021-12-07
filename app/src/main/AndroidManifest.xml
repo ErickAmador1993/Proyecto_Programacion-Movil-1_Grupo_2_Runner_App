@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.example.runnerapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.hardware.location.gps" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RunnerApp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ActivityRecuperar"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.ActivityEditarperfil"
+            android:exported="false" />
+        <activity
+            android:name=".Rutinas.Rutina3"
+            android:exported="false" />
+        <activity
+            android:name=".Rutinas.Rutina2"
+            android:exported="false" />
+        <activity
+            android:name=".Rutinas.Rutina1"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/mapKey" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Menu.ActivityInicio_x" />
+        <activity android:name=".Menu.ActivityMenu" />
+        <activity android:name=".Menu.MainActivity" />
+        <activity android:name=".ActivityGenero_x" />
+        <activity
+            android:name=".Activity_login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityAltura_x" />
+        <activity android:name=".ActivityPeso_x" />
+        <activity android:name=".Activitys.ActivityRegistrar" />
+    </application>
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyD1ZutPcbktna3c5xMLfPdyNlzD0e_zpBE" />
+
+</manifest>

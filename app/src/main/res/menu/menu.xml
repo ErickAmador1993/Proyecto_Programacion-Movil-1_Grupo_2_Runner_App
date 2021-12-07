@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/InicioFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/AnalisisFragment"
+        android:icon="@drawable/ic_baseline_analytics_24"
+        android:title="Analiticas"/>
+
+    <item
+        android:id="@+id/RutinaFragment"
+        android:icon="@drawable/ic_baseline_run_circle_24"
+        android:title="Carrera"/>
+
+    <item
+        android:id="@+id/PlanFragment"
+        android:title="Rutinas"
+        android:icon="@drawable/ic_gimnasio"/>
+
+    <item
+        android:id="@+id/PerfilFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Perfil"/>
+
+</menu>
